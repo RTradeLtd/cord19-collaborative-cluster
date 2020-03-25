@@ -13,3 +13,10 @@ To download the datasets simply run `make download-datasets` and all datasets wi
 
 
 `cluster-main` contains a configuration file suitable for running a "trusted peer" in the cluster to maintain this dataset. Otherwise if you are just looking to start up a follower, make sure to use the config in `cluster-follow`.
+
+
+# troubleshooting
+
+```
+23:12:28.758 ERROR  p2p-gorpc: error handling RPC: client does not have permissions to this method, service name: IPFSConnector, method name: BlockPut server.go:176
+```

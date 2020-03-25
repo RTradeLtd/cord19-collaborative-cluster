@@ -13,5 +13,5 @@ install-cluster:
 
 .PHONY: follow
 follow:
-	ipfs-cluster-follow cord19-datase init http://localhost:8080/ipfs/QmbfUndjtWLxvNmnx2ywrPQKgvKG32JAiojt1aeox44Eb3
+	ipfs-cluster-follow cord19-datase init http://localhost:8080/ipfs/QmdhKHCaojZDquDok7uNnEuPFbzHbsGMnq1g3kdBJc8MPh
 	ipfs-cluster-follow cord19-datase run
