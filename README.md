@@ -8,6 +8,10 @@ Contains scripts, and docker files capable of joining the CORD19 collaborative c
 
 To download the datasets simply run `make download-datasets` and all datasets will be downloaded into the `datasets` directory.
 
+## updating the datasets
+
+If you are running a trusted peer, you can update the datasets maintained with a simple `make down-sets-and-add`
+
 ## joining the collaborative cluster
 
 You'll need to install IPFS Cluster tooling, if you are on linux 64bit you can type `make install-cluster`. Technically all you need is the `ipfs-cluster-follow` command, but the make statement installs all cluster tooling, allowing you to run your own stand-alone cluster.
