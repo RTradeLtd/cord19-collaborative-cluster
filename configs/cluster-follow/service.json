@@ -21,7 +21,9 @@
     "peer_watch_interval": "5s",
     "mdns_interval": "10s",
     "disable_repinning": false,
-    "peer_addresses": []
+    "peer_addresses": [
+    	"/ip4/172.218.49.115/tcp/9096/p2p/12D3KooWPT1tJCyZ1zW35Zt7gMRYwTP2J3hmTpCV6a4m7SjmwNUo"
+    ]
   },
   "consensus": {
     "crdt": {
