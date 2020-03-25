@@ -2,6 +2,10 @@
 download-datasets:
 	bash ./scripts/download_datasets.sh
 
+.PHONY: down-sets-and-add
+down-sets-and-add: download-datasets
+	ipfs-cluster-ctl add --recursive datasets
+
 .PHONY: install-cluster
 install-cluster:
 	./scripts/install_cluster.sh linux-64bit
