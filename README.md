@@ -36,6 +36,9 @@ To more easily discover the content you can connect to the following peers:
 
 # troubleshooting
 
+
+If you get the following error, it means the trusted peer list is incorrectly configured.
+
 ```
 23:12:28.758 ERROR  p2p-gorpc: error handling RPC: client does not have permissions to this method, service name: IPFSConnector, method name: BlockPut server.go:176
 ```
